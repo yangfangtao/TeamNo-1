@@ -1,0 +1,18 @@
+{
+    "name": "{{ name }}",
+    "version": "1.0.0",
+    "description": "{{description}}",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "{{author}}",
+    "license": "ISC",
+    "bin": {
+        "prohub": "index.js"
+    },
+    "dependencies": {
+        "commander": "^2.19.0",
+        "download-git-repo": "^1.1.0"
+    }
+}
